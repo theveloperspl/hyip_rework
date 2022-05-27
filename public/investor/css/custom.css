@@ -1,0 +1,307 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.full-bg {
+    background-image: url(../images/ocean.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #2f363e;
+}
+
+.authentication-page {
+    background: none;
+}
+
+.deznav .metismenu > li > a img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 20px;
+}
+
+[data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu li a img {
+    margin-left: -7px;
+}
+
+.mfp-close {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: linear-gradient(to right, #e52d27, #b31217);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mfp-close:hover {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+[data-theme-version="dark"] .bootstrap-select .btn {
+    border-color: #3e454d !important;
+    background: transparent !important;
+    color: #FFFFFF !important;
+}
+
+[data-theme-version="dark"] .bootstrap-select .btn:active,
+[data-theme-version="dark"] .bootstrap-select .btn:focus,
+[data-theme-version="dark"] .bootstrap-select .btn:hover {
+    color: #FFFFFF !important;
+}
+
+.tooltip-inner {
+    background: #24292D;
+    font-size: 15px;
+}
+
+.bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+    border-top-color: #24292D;
+}
+
+.bootstrap-select .dropdown-menu.show {
+    z-index: 999;
+}
+
+.bootstrap-select .dropdown-menu.inner .disabled img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.form-check-input {
+    margin-top: 0.1em;
+}
+
+.form-check-input:checked {
+    background-color: #3ea190;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+/* custom text helpers */
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+/* custom image helpers */
+.img-32 {
+    width: 32px;
+    height: 32px;
+}
+
+.img-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.img-64 {
+    width: 64px;
+    height: 64px;
+}
+
+.img-96 {
+    width: 96px;
+    height: 96px;
+}
+
+/* custom backgrounds */
+.bg-main-light {
+    background-color: #0E8A74 !important;
+}
+
+.bg-main-dark {
+    background-color: #2F363E !important;
+}
+
+/* preloader content */
+.clones-1 {
+    width: 100px;
+    height: 100px;
+    background: #329C89;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    animation: cl1 1.5s infinite;
+}
+
+@keyframes cl1 {
+    0%,
+    100% {
+        transform: translate(-30px, -30px);
+        box-shadow: 0 0 #037F75, 0 0 #0A7474
+    }
+    40% {
+        transform: translate(30px, 30px);
+        box-shadow: -10px -10px #037F75, 20px -20px #0A7474
+    }
+    50% {
+        transform: translate(30px, 30px);
+        box-shadow: 0 0 #037F75, 0 0 #0A7474
+    }
+    90% {
+        transform: translate(-30px, -30px);
+        box-shadow: 10px 10px #037F75, 20px 20px #0A7474
+    }
+}
+
+/* swing animation */
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    outline: 2px solid #f00;
+}
+
+.btn-check:checked + .btn-outline-success {
+    color: #ffffff;
+}
+
+.btn-check:checked + .btn-outline-danger {
+    color: #ffffff;
+}
+
+/* dynamic backgrounds */
+.card .active {
+    background-image: url('../images/animated/active.svg');
+}
+
+.card .pending {
+    background-image: url('../images/animated/pending.svg');
+}
+
+.card .finished {
+    background-image: url('../images/animated/finished.svg');
+}
+
+.popover {
+    border: 2px solid #0E8A74;
+}
+
+.popover-header {
+    background: #0E8A74;
+}
+
+.popover-body {
+    color: #FFFFFF;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: #ffffff;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: #ffffff;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous.current:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.previous.previous:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.previous.next:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next.current:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next.previous:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next.next:hover {
+    color: #fff !important;
+    background: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled {
+    color: #3e454d !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled:hover {
+    color: #3e454d !important;
+    background: none !important;
+}
+
+.paging_simple_numbers.dataTables_paginate {
+    border: none;
+}
+
+.flotTip {
+    text-align: center !important;
+    background-color: #000 !important;
+    border-radius: 0.75rem !important;
+}
+
+@media screen and (max-width: 767px) {
+    div.dataTables_wrapper div.dataTables_length,
+    div.dataTables_wrapper div.dataTables_filter,
+    div.dataTables_wrapper div.dataTables_info,
+    div.dataTables_wrapper div.dataTables_paginate {
+        text-align: center;
+    }
+
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate {
+        float: none;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        margin-top: 0.5em;
+        justify-content: center;
+    }
+}

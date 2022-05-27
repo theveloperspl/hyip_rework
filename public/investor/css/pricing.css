@@ -1,0 +1,98 @@
+.pricingTable {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.pricingTable .pricingTable-header {
+    background: #2F363E;
+    padding: 30px 20px;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);*/
+    border-radius: 1.25rem;
+}
+
+.pricingTable .title {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.pricingTable .price-value {
+    color: #fff;
+    background: linear-gradient(#008076, #2E9D8A);
+    padding: 20px 0;
+    margin: 0 30px;
+}
+
+.pricingTable .price-value .amount {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+    display: block;
+}
+
+.pricingTable .price-value .duration {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+.pricingTable .pricing-content {
+    background-color: #2F363E;
+    padding: 30px 20px 35px;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);*/
+    border-radius: 1.25rem;
+}
+
+.pricingTable .pricing-content ul {
+    padding: 0;
+    margin: 0 0 30px;
+    list-style: none;
+}
+
+.pricingTable .pricing-content ul li {
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 0 15px;
+}
+
+.pricingTable .pricing-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.pricingTable .pricingTable-signup a {
+    color: #fff;
+    background: linear-gradient(#2CC550, #35C296);
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    text-shadow: -4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricingTable.purple .price-value,
+.pricingTable.purple .pricingTable-signup a {
+    background: linear-gradient(#654CAF, #945AD2);
+}
+
+.pricingTable.pink .price-value,
+.pricingTable.pink .pricingTable-signup a {
+    background: linear-gradient(#CA3173, #D55A6F);
+}
+
+@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin: 0 0 40px;
+    }
+}

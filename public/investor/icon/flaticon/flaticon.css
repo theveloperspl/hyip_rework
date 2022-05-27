@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?e58659c3f45623ef0ad9d1634982a399") format("truetype"),
+    url("./flaticon.woff?e58659c3f45623ef0ad9d1634982a399") format("woff"),
+    url("./flaticon.woff2?e58659c3f45623ef0ad9d1634982a399") format("woff2"),
+    url("./flaticon.eot?e58659c3f45623ef0ad9d1634982a399#iefix") format("embedded-opentype"),
+    url("./flaticon.svg?e58659c3f45623ef0ad9d1634982a399#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-close:before {
+    content: "\f101";
+}
+.flaticon-add:before {
+    content: "\f102";
+}
+.flaticon-plus:before {
+    content: "\f103";
+}
+.flaticon-add-1:before {
+    content: "\f104";
+}
+.flaticon-foreign:before {
+    content: "\f105";
+}
+.flaticon-up-arrow:before {
+    content: "\f106";
+}
+.flaticon-right-arrow:before {
+    content: "\f107";
+}
+.flaticon-left-arrow:before {
+    content: "\f108";
+}
+.flaticon-right-chevron:before {
+    content: "\f109";
+}
+.flaticon-down-chevron:before {
+    content: "\f10a";
+}
+.flaticon-like:before {
+    content: "\f10b";
+}
+.flaticon-fire:before {
+    content: "\f10c";
+}
+.flaticon-notification:before {
+    content: "\f10d";
+}
+.flaticon-worldwide:before {
+    content: "\f10e";
+}
+.flaticon-left-chevron:before {
+    content: "\f10f";
+}
+.flaticon-add-user:before {
+    content: "\f110";
+}
+.flaticon-left-chevron-1:before {
+    content: "\f111";
+}
+.flaticon-redo:before {
+    content: "\f112";
+}
+.flaticon-up-chevron:before {
+    content: "\f113";
+}
+.flaticon-down-arrow:before {
+    content: "\f114";
+}
+.flaticon-right-chevron-1:before {
+    content: "\f115";
+}
+.flaticon-easy-use:before {
+    content: "\f116";
+}
+.flaticon-info:before {
+    content: "\f117";
+}
+.flaticon-information:before {
+    content: "\f118";
+}
+.flaticon-information-1:before {
+    content: "\f119";
+}
+.flaticon-check:before {
+    content: "\f11a";
+}
+.flaticon-cursor:before {
+    content: "\f11b";
+}
+.flaticon-deal:before {
+    content: "\f11c";
+}
+.flaticon-conference:before {
+    content: "\f11d";
+}
+.flaticon-user:before {
+    content: "\f11e";
+}
+.flaticon-user-1:before {
+    content: "\f11f";
+}
+.flaticon-menu:before {
+    content: "\f120";
+}
+.flaticon-search:before {
+    content: "\f121";
+}
+.flaticon-star:before {
+    content: "\f122";
+}
+.flaticon-24-hours:before {
+    content: "\f123";
+}
+.flaticon-question:before {
+    content: "\f124";
+}
+.flaticon-link:before {
+    content: "\f125";
+}
+.flaticon-edit-file:before {
+    content: "\f126";
+}
+.flaticon-quotation:before {
+    content: "\f127";
+}
+.flaticon-devops:before {
+    content: "\f128";
+}
+.flaticon-infinity:before {
+    content: "\f129";
+}
+.flaticon-infinity-1:before {
+    content: "\f12a";
+}
+.flaticon-infinity-2:before {
+    content: "\f12b";
+}
+.flaticon-infinite-mathematical-symbol:before {
+    content: "\f12c";
+}
+.flaticon-infinity-3:before {
+    content: "\f12d";
+}
+.flaticon-eye:before {
+    content: "\f12e";
+}
+.flaticon-eye-scan:before {
+    content: "\f12f";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f130";
+}
+.flaticon-magnifying-glass-1:before {
+    content: "\f131";
+}
+.flaticon-transparency:before {
+    content: "\f132";
+}
+.flaticon-loupe:before {
+    content: "\f133";
+}
+.flaticon-alert:before {
+    content: "\f134";
+}
+.flaticon-warning-sign:before {
+    content: "\f135";
+}
+.flaticon-information-2:before {
+    content: "\f136";
+}
+
+.flaticon-wait:before {
+    content: "\f137";
+}
+
+.flaticon-hourglass:before {
+    content: "\f138";
+}
+
+.flaticon-hourglass-1:before {
+    content: "\f139";
+}
+
+.flaticon-money-bag:before {
+    content: "\f13a";
+}
+
+.flaticon-money:before {
+    content: "\f13b";
+}
+
+.flaticon-team:before {
+    content: "\f13c";
+}
+
+.flaticon-help:before {
+    content: "\f13d";
+}
+
+.flaticon-more:before {
+    content: "\f13e";
+}
+
+.flaticon-database:before {
+    content: "\f13f";
+}
